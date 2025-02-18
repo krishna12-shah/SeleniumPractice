@@ -86,7 +86,7 @@ public class LoginPracticeClass {
 		driver.findElement(By.xpath(companiesName)).click();
 		
 		Thread.sleep(8000);
-		
+		Thread.sleep(2000);		
 		driver.quit();
 				
 		
