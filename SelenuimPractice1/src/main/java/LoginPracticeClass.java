@@ -85,7 +85,7 @@ public class LoginPracticeClass {
 		actions.moveToElement(sidebarMenuID).build().perform();
 		driver.findElement(By.xpath(companiesName)).click();
 		
-		Thread.sleep(5000);
+		Thread.sleep(8000);
 		
 		driver.quit();
 				
